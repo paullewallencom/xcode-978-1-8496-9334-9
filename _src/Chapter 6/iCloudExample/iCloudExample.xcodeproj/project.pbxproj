@@ -1,0 +1,310 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E9EF29CD164BBECC00959676 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9EF29CC164BBECC00959676 /* UIKit.framework */; };
+		E9EF29CF164BBECC00959676 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9EF29CE164BBECC00959676 /* Foundation.framework */; };
+		E9EF29D1164BBECC00959676 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9EF29D0164BBECC00959676 /* CoreGraphics.framework */; };
+		E9EF29D7164BBECC00959676 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E9EF29D5164BBECC00959676 /* InfoPlist.strings */; };
+		E9EF29D9164BBECC00959676 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E9EF29D8164BBECC00959676 /* main.m */; };
+		E9EF29DD164BBECC00959676 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E9EF29DC164BBECC00959676 /* AppDelegate.m */; };
+		E9EF29DF164BBECC00959676 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = E9EF29DE164BBECC00959676 /* Default.png */; };
+		E9EF29E1164BBECC00959676 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E9EF29E0164BBECC00959676 /* Default@2x.png */; };
+		E9EF29E3164BBECC00959676 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E9EF29E2164BBECC00959676 /* Default-568h@2x.png */; };
+		E9EF29E6164BBECC00959676 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9EF29E5164BBECC00959676 /* ViewController.m */; };
+		E9EF29E9164BBECC00959676 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9EF29E7164BBECC00959676 /* ViewController.xib */; };
+		E9EF29F2164BC91700959676 /* Snippet.m in Sources */ = {isa = PBXBuildFile; fileRef = E9EF29F1164BC91700959676 /* Snippet.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E9EF29C8164BBECC00959676 /* iCloudExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iCloudExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9EF29CC164BBECC00959676 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E9EF29CE164BBECC00959676 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E9EF29D0164BBECC00959676 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E9EF29D4164BBECC00959676 /* iCloudExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iCloudExample-Info.plist"; sourceTree = "<group>"; };
+		E9EF29D6164BBECC00959676 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E9EF29D8164BBECC00959676 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E9EF29DA164BBECC00959676 /* iCloudExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iCloudExample-Prefix.pch"; sourceTree = "<group>"; };
+		E9EF29DB164BBECC00959676 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E9EF29DC164BBECC00959676 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E9EF29DE164BBECC00959676 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		E9EF29E0164BBECC00959676 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		E9EF29E2164BBECC00959676 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		E9EF29E4164BBECC00959676 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E9EF29E5164BBECC00959676 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E9EF29E8164BBECC00959676 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		E9EF29EF164BBED800959676 /* iCloudExample.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = iCloudExample.entitlements; sourceTree = "<group>"; };
+		E9EF29F0164BC91700959676 /* Snippet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Snippet.h; sourceTree = "<group>"; };
+		E9EF29F1164BC91700959676 /* Snippet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Snippet.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E9EF29C5164BBECC00959676 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9EF29CD164BBECC00959676 /* UIKit.framework in Frameworks */,
+				E9EF29CF164BBECC00959676 /* Foundation.framework in Frameworks */,
+				E9EF29D1164BBECC00959676 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E9EF29BD164BBECC00959676 = {
+			isa = PBXGroup;
+			children = (
+				E9EF29D2164BBECC00959676 /* iCloudExample */,
+				E9EF29CB164BBECC00959676 /* Frameworks */,
+				E9EF29C9164BBECC00959676 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E9EF29C9164BBECC00959676 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E9EF29C8164BBECC00959676 /* iCloudExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E9EF29CB164BBECC00959676 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E9EF29CC164BBECC00959676 /* UIKit.framework */,
+				E9EF29CE164BBECC00959676 /* Foundation.framework */,
+				E9EF29D0164BBECC00959676 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E9EF29D2164BBECC00959676 /* iCloudExample */ = {
+			isa = PBXGroup;
+			children = (
+				E9EF29F0164BC91700959676 /* Snippet.h */,
+				E9EF29F1164BC91700959676 /* Snippet.m */,
+				E9EF29EF164BBED800959676 /* iCloudExample.entitlements */,
+				E9EF29DB164BBECC00959676 /* AppDelegate.h */,
+				E9EF29DC164BBECC00959676 /* AppDelegate.m */,
+				E9EF29E4164BBECC00959676 /* ViewController.h */,
+				E9EF29E5164BBECC00959676 /* ViewController.m */,
+				E9EF29E7164BBECC00959676 /* ViewController.xib */,
+				E9EF29D3164BBECC00959676 /* Supporting Files */,
+			);
+			path = iCloudExample;
+			sourceTree = "<group>";
+		};
+		E9EF29D3164BBECC00959676 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E9EF29D4164BBECC00959676 /* iCloudExample-Info.plist */,
+				E9EF29D5164BBECC00959676 /* InfoPlist.strings */,
+				E9EF29D8164BBECC00959676 /* main.m */,
+				E9EF29DA164BBECC00959676 /* iCloudExample-Prefix.pch */,
+				E9EF29DE164BBECC00959676 /* Default.png */,
+				E9EF29E0164BBECC00959676 /* Default@2x.png */,
+				E9EF29E2164BBECC00959676 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E9EF29C7164BBECC00959676 /* iCloudExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9EF29EC164BBECC00959676 /* Build configuration list for PBXNativeTarget "iCloudExample" */;
+			buildPhases = (
+				E9EF29C4164BBECC00959676 /* Sources */,
+				E9EF29C5164BBECC00959676 /* Frameworks */,
+				E9EF29C6164BBECC00959676 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iCloudExample;
+			productName = iCloudExample;
+			productReference = E9EF29C8164BBECC00959676 /* iCloudExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E9EF29BF164BBECC00959676 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "GenieSoft Studios";
+			};
+			buildConfigurationList = E9EF29C2164BBECC00959676 /* Build configuration list for PBXProject "iCloudExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E9EF29BD164BBECC00959676;
+			productRefGroup = E9EF29C9164BBECC00959676 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E9EF29C7164BBECC00959676 /* iCloudExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E9EF29C6164BBECC00959676 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9EF29D7164BBECC00959676 /* InfoPlist.strings in Resources */,
+				E9EF29DF164BBECC00959676 /* Default.png in Resources */,
+				E9EF29E1164BBECC00959676 /* Default@2x.png in Resources */,
+				E9EF29E3164BBECC00959676 /* Default-568h@2x.png in Resources */,
+				E9EF29E9164BBECC00959676 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E9EF29C4164BBECC00959676 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9EF29D9164BBECC00959676 /* main.m in Sources */,
+				E9EF29DD164BBECC00959676 /* AppDelegate.m in Sources */,
+				E9EF29E6164BBECC00959676 /* ViewController.m in Sources */,
+				E9EF29F2164BC91700959676 /* Snippet.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E9EF29D5164BBECC00959676 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9EF29D6164BBECC00959676 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E9EF29E7164BBECC00959676 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9EF29E8164BBECC00959676 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E9EF29EA164BBECC00959676 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E9EF29EB164BBECC00959676 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E9EF29ED164BBECC00959676 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = iCloudExample/iCloudExample.entitlements;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iCloudExample/iCloudExample-Prefix.pch";
+				INFOPLIST_FILE = "iCloudExample/iCloudExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E9EF29EE164BBECC00959676 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = iCloudExample/iCloudExample.entitlements;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iCloudExample/iCloudExample-Prefix.pch";
+				INFOPLIST_FILE = "iCloudExample/iCloudExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E9EF29C2164BBECC00959676 /* Build configuration list for PBXProject "iCloudExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9EF29EA164BBECC00959676 /* Debug */,
+				E9EF29EB164BBECC00959676 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9EF29EC164BBECC00959676 /* Build configuration list for PBXNativeTarget "iCloudExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9EF29ED164BBECC00959676 /* Debug */,
+				E9EF29EE164BBECC00959676 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E9EF29BF164BBECC00959676 /* Project object */;
+}

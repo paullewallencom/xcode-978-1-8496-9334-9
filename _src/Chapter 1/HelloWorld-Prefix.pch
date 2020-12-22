@@ -1,0 +1,21 @@
+//
+// Prefix header for all source files of the 'HelloWorld' target in the 'HelloWorld' project
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_4_0
+#warning "This project uses features only available in iOS SDK 4.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+#endif
+
+#ifdef DISPLAY_FIRSTNAME
+    #warning "This application will display the value of the Firstname field."
+#else
+    #warning "This application will display the values of both the Firstname and Surname fields."
+#endif
+
